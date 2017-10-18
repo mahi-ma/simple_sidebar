@@ -1,0 +1,122 @@
+body
+{
+    background-color: coral;
+}
+#p1,#p2
+{
+   top: 17%;
+    left: 31.5%;
+    z-index: 15;
+    margin: -100px 0 0 -150px;
+     height: 100px;
+    width: 798px;
+     top: 17%;
+    margin-top: 15%;
+    position: absolute;
+    color:crimson;
+    text-decoration-color: crimson;
+    text-transform: uppercase;
+    text-align: center;
+}
+#d1
+{
+    background-color: darkgreen;
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+#bd
+{
+    background-color: black;
+}
+#d2
+{
+    background-color: chartreuse;
+     font-family: myFont;
+    color: blue;
+    font-size: 50px;
+    height: 100px;
+    width: 798px;
+    position: absolute;
+    top: 17%;
+    left: 31.5%;
+    z-index: 15;
+    margin: -100px 0 0 -150px;
+}
+#d3
+{
+    background-color: darkgreen;
+    height: 100%;
+    width: 20%;
+    float: right;
+    top: 0%;
+    margin-top: 0%;
+     font-family: ownFont;
+    font-size: 200px;
+    color: white;
+}
+@font-face
+{
+    font-family:ownFont;
+    src:url(days.ttf);
+}
+@font-face
+{
+    font-family:myFont;
+    src:url(VanillaExtractRegular.ttf);
+}
+ul {
+    list-style-type: none;
+    overflow: visible;
+    background-color: #333;
+    position: absolute;
+    width: 16.8%;
+    float: left;
+    
+}
+
+li.a {
+    float: none;
+    border: 5px solid darkgreen;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+li a:visited{
+    background-color: white;
+}
+
+li a:active {
+    background-color: white;
+}
+.a
+{
+     pointer-events: visiblePainted;
+}
+#down
+{
+    
+    text-transform:lowercase;
+   // text-decoration: underline;
+    letter-spacing:2px;
+    line-height:3.0;
+    width:80%;
+    height:7%;
+    background:black;
+    position: relative;
+}
+#down1
+{
+    background-color: grey;
+    z-index: 200;
+    position: relative;
+}
